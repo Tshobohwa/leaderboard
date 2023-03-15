@@ -1,4 +1,4 @@
-import { nameInput, renderScores, scoreInput } from './DOM';
+import { nameInput, renderScores, scoreInput } from './DOM.js';
 
 const scores = [];
 
