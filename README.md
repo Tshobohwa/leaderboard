@@ -26,9 +26,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [To Do List] <a name="about-project"></a>
+# 📖 [Leaderboard] <a name="about-project"></a>
 
-**[To Do List]** is web app that allow user to insert and remove tasks to do.
+**[Leaderboard]** is web app that allow users to store and render they scores in a game.
 
 ## 🛠 Built With <a name="built-with">
 
