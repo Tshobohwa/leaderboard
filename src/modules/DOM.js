@@ -6,7 +6,7 @@ export const submitBtn = document.querySelector('.submit-btn');
 
 export const renderScores = (scores) => {
   scoreList.innerHTML = '';
-  if (scores) {
+  if (scores.length) {
     scoreList.style.border = 'solid #000000 2px';
     scores.forEach((score) => {
       scoreList.insertAdjacentHTML(
