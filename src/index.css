@@ -8,6 +8,19 @@
   font-weight: 700;
 }
 
+li {
+  list-style: none;
+  height: 2.3rem;
+  padding-left: 1rem;
+  display: flex;
+  align-items: center;
+  font-size: 1.3rem;
+}
+
+li:nth-child(even) {
+  background-color: #d3d3d3;
+}
+
 body {
   width: 100vw;
 }
@@ -28,6 +41,7 @@ body {
 .recent-score-header {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 1rem;
 }
 
 .submit-btn,
