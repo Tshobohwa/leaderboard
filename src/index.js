@@ -1,8 +1,8 @@
 import './index.css';
-import { refrechBtn, renderScores, submitBtn } from './modules/DOM.js';
-import { submitScore, scores, refrechScoretable } from './modules/util.js';
+import { refrechBtn, submitBtn } from './modules/DOM.js';
+import { submitScore, refrechScoretable } from './modules/util.js';
 
-renderScores(scores);
+refrechScoretable();
 
 submitBtn.addEventListener('click', (e) => {
   e.preventDefault();
