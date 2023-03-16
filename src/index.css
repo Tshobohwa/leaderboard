@@ -79,3 +79,8 @@ body {
   flex-direction: column;
   gap: 1rem;
 }
+
+.post-error {
+  color: red;
+  text-align: center;
+}
