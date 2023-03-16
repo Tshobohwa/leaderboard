@@ -84,8 +84,6 @@ Clone this repository to your desired folder:
 
 Install this project with:
 
-Example command:
-
 ```sh
   cd my-project
   npm install
