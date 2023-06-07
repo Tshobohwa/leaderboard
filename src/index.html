@@ -7,29 +7,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Leaderboard</title>
     <link rel="stylesheet" href="index.css">
+    <script defer src="index.js"></script>
 </head>
 
 <body>
-    <h1 class="page-header">Leaderboard</h1>
-    <main class="page-main">
-        <section class="score-table-section">
-            <div class="recent-score-header">
-                <h2 class="recent-score-title">Recent scores</h2>
-                <button class="refrech-btn" type="button">Refrech</button>
-            </div>
-            <ul class="score-list"></ul>
+    <h1 class="leaderboard">Leaderboard</h1>
+    <main class="main">
+        <section class="main__section">
+            <header class="section__header">
+                <h2 class="section__title">Recent scores</h2>
+                <button class="section__btn" type="button">Refresh</button>
+            </header>
+            <ul class="section__list"></ul>
         </section>
-        <section class="add-score-section">
-            <h2>Add your score</h2>
-            <form class="new-score-form">
-                <input type="text" class="name-input" placeholder="Your name" required>
-                <input type="number" class="score-input" placeholder="Your score" required>
-                <button class="submit-btn" type="submit">Submit</button>
-                <p class="post-error"></p>
+        <section class="main__section">
+            <h2 class="section__title">Add your score</h2>
+            <form class="form">
+                <input class="form__input" type="text" placeholder="Your name" required>
+                <input class="form__input" type="number" placeholder="Your score" required>
+                <button class="form__btn" type="submit">Submit</button>
+                <p class="form__text"></p>
             </form>
         </section>
     </main>
-    <script defer src="index.js"></script>
 </body>
 
 </html>
